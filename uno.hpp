@@ -1,12 +1,5 @@
-/*
- * Uno.hpp
- *
- *  Created on: Dec 29, 2021
- *      Author: kabut
- */
-
-#ifndef UNO_HPP_
-#define UNO_HPP_
+#ifndef uno_HPP_
+#define uno_HPP_
 
 class Uno {
 	//Player *you;
@@ -17,4 +10,4 @@ public:
 	virtual ~Uno();
 };
 
-#endif /* UNO_HPP_ */
+#endif /* uno_HPP_ */
