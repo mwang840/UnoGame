@@ -78,10 +78,10 @@ string UnoCard::toString(){
 	if(cardNum < 0){
 		return "Color is: " + this->getColor() + " and event is: " + this->getEvent();
 	}
-	else if(event == ""){
-		return "Number is: " + this->getCardNum() + " and color is: " + this->getColor();
+	else if(event == "" && cardNum>=0 ){
+		return "Number is: " + this->getCardNum() + this->getColor();
 	}
-	else if(cardNum < 0 and color == ""){
+	else if(cardNum < 0 && color == ""){
 		return "Event is: " +  this->getEvent();
 	}
 }
