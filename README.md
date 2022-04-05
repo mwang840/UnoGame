@@ -1,2 +1,2 @@
 # UnoGame
-Making an uno game in c++
+Making an uno game in c++ with linked lists as an example
