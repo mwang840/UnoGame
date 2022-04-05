@@ -97,7 +97,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\Main.exe",
+            "program": "C:\\Users\\kabut\\OneDrive\\CISC_220\\UnoGame\\Main.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
