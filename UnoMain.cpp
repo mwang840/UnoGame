@@ -11,7 +11,7 @@ int main(){
 	bool unoOut = false;
 	bool oneLeft = false;
 	cout<<"# of players has to be two or more" <<endl;
-	cin << players;
+	cin >> players;
 	if(players < 2){
 		cout<<"Try again"<<endl;
 	}
