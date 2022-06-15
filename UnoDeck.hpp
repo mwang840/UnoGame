@@ -14,6 +14,7 @@ using namespace std;
 
 class UnoDeck {
 	//Deck for the cards and also includes player
+	friend class UnoPlayer;
 	UnoCard *hand;
 	UnoCard *discarded;
 	UnoPlayer *player;
